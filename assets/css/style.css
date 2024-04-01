@@ -1,5 +1,5 @@
 .bc-black{
-    background-color: black;
+    background-color: rgb(51, 50, 50);
 }
 .bc-celeste{
     background-color: aqua;
@@ -24,6 +24,8 @@
 
 .imagen{
     border-radius: 50rem;
+    border-style: solid;
+    border-color: black;
 }
 
 .link { 
@@ -38,21 +40,33 @@
       transition: 0.2s ease-in; 
     }
 .tam-nav{
-
+    
+    
     width: 20%;
+    max-width: 20%;
+    height: 55rem; 
     display: block;
     top: 0;
     font-family: sans-serif;
 } 
 
 .tam-main{
+    
+    width: 100%;
+    height: 13.75rem;
+    max-height: 25%;
+}
 
-    height: 25%;
+.tam-total{
+
+    width: 80%;
+    height: 13.75rem;
 }
 
 .centrar{
     display: flex;
     justify-content: center;
+    margin: 0;
 }
 
 .centrar-link{
@@ -72,4 +86,6 @@
 
 .td{
     list-style: none;
+    font-family: sans-serif;
 }
+
