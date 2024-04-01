@@ -1,0 +1,75 @@
+.bc-black{
+    background-color: black;
+}
+.bc-celeste{
+    background-color: aqua;
+}
+.bc-amarillo{
+    background-color: yellow;
+}
+.bc-naranjo{
+    background-color: orange;
+}
+.bc-red{
+    background-color: red;
+}
+.text-white{
+    color: white;
+}
+
+.centrar{
+    display: flex;
+    justify-content: center;
+}
+
+.imagen{
+    border-radius: 50rem;
+}
+
+.link { 
+    color: white; 
+    text-decoration: none; 
+    font-size: 40px;
+    cursor: pointer;   
+    }
+    .link:hover {
+      color: rgb(0, 0, 0); 
+      size: 400px;
+      transition: 0.2s ease-in; 
+    }
+.tam-nav{
+
+    width: 20%;
+    display: block;
+    top: 0;
+    font-family: sans-serif;
+} 
+
+.tam-main{
+
+    height: 25%;
+}
+
+.centrar{
+    display: flex;
+    justify-content: center;
+}
+
+.centrar-link{
+    display: flex;
+    justify-content: center;
+    align-items: center;   
+}
+
+.activar{
+    color: rgb(240, 241, 243);
+}
+.activar:hover{
+    color: rgb(149, 146, 146);
+    cursor: pointer; 
+    transition: 0.3s ease-in; 
+}
+
+.td{
+    list-style: none;
+}
