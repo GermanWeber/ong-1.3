@@ -13,8 +13,9 @@
 .bc-red{
     background-color: red;
 }
-.text-white{
-    color: white;
+
+.texto-black{
+    color: rgb(101, 95, 95);
 }
 
 .centrar{
@@ -28,7 +29,7 @@
     border-color: black;
 }
 
-.link { 
+.link{ 
     color: white; 
     text-decoration: none; 
     font-size: 40px;
@@ -44,16 +45,16 @@
     
     width: 20%;
     max-width: 20%;
-    height: 55rem; 
+    height: 55rem;   
     display: block;
-    top: 0;
+    top: 0px;
     font-family: sans-serif;
 } 
 
 .tam-main{
     
     width: 100%;
-    height: 13.75rem;
+    height: 16rem;
     max-height: 25%;
 }
 
@@ -77,11 +78,14 @@
 
 .activar{
     color: rgb(240, 241, 243);
+    transition: 0.3s ease-in; 
+    text-indent: 0%;
 }
 .activar:hover{
     color: rgb(149, 146, 146);
     cursor: pointer; 
     transition: 0.3s ease-in; 
+    text-indent: 2%;
 }
 
 .td{
